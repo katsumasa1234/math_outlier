@@ -1,16 +1,53 @@
-# math_outlier
+# 数学的外れ値
 
-A new Flutter project.
+複数の数式から、問題に沿った答えの数式を選ぶゲームです。
 
-## Getting Started
+出題される数式は全部で6つ
 
-This project is a starting point for a Flutter application.
+問題は○○より大きな数式、もしくは小さな数式をすべて選べ、のような問題が出ます。
 
-A few resources to get you started if this is your first Flutter project:
+## レベル
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+問題のレベルは、
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* オールラウンド
+  * 四則演算
+  * べき乗
+  * 三角関数
+  * 対数関数
+  * 微積分
+  * 極限
+  * 総和
+* イージー
+  * 加減算
+* ノーマル
+  * 四則演算
+* ハード
+  * 四則演算
+  * べき乗
+  * 三角関数
+  * 対数関数
+
+があります。
+
+## 動作環境
+
+Android 14, Windows 11 x64
+
+上記のデバイスでのみ動作確認を行い、ビルドをしています。
+
+## インストール方法
+
+Releasesからダウンロードしたいバージョンを選択して、
+
+Androidでプレイしたい方はAPK、
+
+Windowsでプレイしたい方はzipファイルをダウンロードしてください。
+
+## 注意点
+
+プログラム的に計算に誤差が生じる場合がございます。
+
+プログラムの実行は自己責任でお願いします。
+
+このREADMEはv1.0.0時点で作られたものです。
